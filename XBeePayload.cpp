@@ -1,3 +1,7 @@
+/*
+  XBeePayload.cpp - A helper method to prepare a byte array for transmission via XBee radios.
+*/
+
 #include "XBeePayload.h"
 
 void *gen_payload(uint8_t *payload, uint8_t payload_size, uint8_t msg_type, uint8_t *data, uint16_t data_size) {
